@@ -34,8 +34,7 @@ python src/web_app.py --api-key <API_KEY> --port 8080
 Либо, можно использовать готовый образ:
 
 ```
-docker pull cr.yandex/sol/ml-ai/speechkit-stream/speechkit-stream:v1.0.0
-docker run -p 8080:8080 --env API_KEY=<API_KEY> cr.yandex/sol/ml-ai/speechkit-stream/speechkit-stream:v1.0.0
+docker run -p 8080:8080 --env API_KEY=<API_KEY> speechkit-stream:v1.0.0
 ```
 
 После запуска контейнера, также необходимо перейти на страницу `http://localhost:8080`.
