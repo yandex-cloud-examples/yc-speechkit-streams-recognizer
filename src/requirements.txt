@@ -1,0 +1,8 @@
+bottle==0.12.25
+bottle-websocket==0.2.9
+pyaudio==0.2.13
+grpcio==1.71.0
+protobuf==5.29.0
+gevent==23.9.1
+ffmpeg-python==0.2.0
+websocket-client==1.7.0
